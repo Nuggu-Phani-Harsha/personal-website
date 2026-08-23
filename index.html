@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+    <meta name="description" content="Portfolio of Phani Harsha Nuggu, a web developer building thoughtful digital experiences.">
+    <title>Phani Harsha Nuggu | Web Developer</title>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"><span>Harsha</span>  </a>
+        <a href="#about" class="logo"><span>Harsha</span>.</a>
         <ul class="nav-links">
             <li>
                 <a href="#about" >About</a>
@@ -28,23 +29,25 @@
             </li> 
         </ul> 
         <i class="fa-solid fa-bars" id="menu-icon"></i>  
-        <button class="visit-btn">Visit Github</button>
+        <a class="visit-btn" href="https://github.com/" target="_blank" rel="noreferrer">Visit GitHub</a>
     </header>
     <section id="about" class="about">
         <div class="about-container">
-            <img src="image.jpg" alt="">
+            <img src="image.jpg" alt="Portrait of Phani Harsha Nuggu">
 
             <div class="info-box">
                 <div class ="text">
+                    <p class="eyebrow">Portfolio / 2024</p>
                     <h3>Hi, I'm</h3>
                     <h1>Harsha</h1>
                     <span>Web Developer</span>
+                    <p class="intro">I design and build clear, dependable web experiences with a focus on thoughtful details and useful technology.</p>
 
                 </div>
 
                 <div class="btn-group">
-                    <div class="btn">Download CV</div>
-                    <div class="btn">Contact</div>
+                    <a class="btn primary" href="#projects">View my work</a>
+                    <a class="btn" href="#contact">Let's talk</a>
 
                 </div>
                 <div class="socials">
@@ -58,36 +61,36 @@
 
     </section>
 
-    <section id="experience" class="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="experience-info">
+    <section id="education" class="experience">
+        <div class="section-heading"><p class="section-kicker">What I bring</p><h2 class="section-title">Experience</h2></div>
+        <div id="experience" class="experience-info">
             <div class="grid">
                 <div class="grid-card">
                     <i class="fa-solid fa-code"></i>
                     <span>Associate Software Developer</span>
-                    <h3>duration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iure.</p>
+                    <h3>2023 — Present</h3>
+                    <p>Building accessible, responsive interfaces and turning product ideas into polished web experiences.</p>
                 </div>
 
                 <div class="grid-card">
                     <i class="fa-solid fa-file-code"></i>
                     <span>Associate Software Developer</span>
-                    <h3>duration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iure.</p>
+                    <h3>Frontend development</h3>
+                    <p>Creating reusable components and clean user flows that are easy to use and maintain.</p>
                 </div>
 
                 <div class="grid-card">
                     <i class="fa-solid fa-laptop"></i>
                     <span>Associate Software Developer</span>
-                    <h3>duration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iure.</p>
+                    <h3>Problem solving</h3>
+                    <p>Working across design and engineering to make complex requirements feel simple.</p>
                 </div>
 
                 <div class="grid-card">
                     <i class="fa-solid fa-list"></i>
                     <span>Associate Software Developer4</span>
-                    <h3>duration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iure.</p>
+                    <h3>Continuous learning</h3>
+                    <p>Growing through hands-on projects, practical experimentation, and collaborative work.</p>
                 </div>
 
             </div>
@@ -96,33 +99,30 @@
 
     </section>
     <section id="projects" class="projects">
-        <h2 class="section-title">Projects</h2>
+        <div class="section-heading"><p class="section-kicker">Selected work</p><h2 class="section-title">Projects</h2></div>
         <div class="projects-grid">
             <div class="project-card">
-                <img src="project.png" alt="">
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, distinctio!</p>
+                <img src="project.png" alt="Project one preview">
+                <h3>Project One</h3>
+                <p>A focused web experience shaped around clarity, speed, and a considered visual system.</p>
                 <div class="btn-group">
-                    <div class="btn">Live Demo</div>
-                    <div class="btn">Github Repo</div>
+                    <a class="btn" href="#contact">View details</a>
                 </div>
             </div>
             <div class="project-card">
-                <img src="project.png" alt="">
-                <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, distinctio!</p>
+                <img src="project.png" alt="Project two preview">
+                <h3>Project Two</h3>
+                <p>A responsive interface that balances useful information with an effortless browsing experience.</p>
                 <div class="btn-group">
-                    <div class="btn">Live Demo</div>
-                    <div class="btn">Github Repo</div>
+                    <a class="btn" href="#contact">View details</a>
                 </div>
             </div>
             <div class="project-card">
-                <img src="project.png" alt="">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, distinctio!</p>
+                <img src="project.png" alt="Project three preview">
+                <h3>Project Three</h3>
+                <p>A practical digital tool with an emphasis on approachable interactions and dependable structure.</p>
                 <div class="btn-group">
-                    <div class="btn">Live Demo</div>
-                    <div class="btn">Github Repo</div>
+                    <a class="btn" href="#contact">View details</a>
                 </div>
             </div>
         </div>
@@ -130,12 +130,14 @@
 
     <section class="contact" id="contact">
         <div class="input-box">
-            <h2 class="section-title">Contact Me</h2>
+            <p class="section-kicker">Have a project in mind?</p>
+            <h2 class="section-title">Let's connect.</h2>
+            <p class="contact-copy">Tell me a little about what you are building and I will get back to you.</p>
             <div class="input">
-                <input type="text" placeholder="example@email.com">
+                <input type="email" placeholder="your@email.com" aria-label="Your email address">
                 <i class="fa -solid fa-envelope"></i>
             </div>
-            <div class="btn">Submit</div>
+            <button class="btn" type="submit">Send inquiry</button>
         </div>
     </section>
 
