@@ -27,7 +27,7 @@
             </li> 
         </ul> 
         <i class="fa-solid fa-bars" id="menu-icon"></i>  
-        <a class="visit-btn" href="https://github.com/" target="_blank" rel="noreferrer">Visit GitHub</a>
+        <a class="visit-btn" href="https://github.com/Nuggu-Phani-Harsha" target="_blank" rel="noreferrer">Visit GitHub</a>
     </header>
     <section id="about" class="about">
         <div class="about-container">
@@ -134,11 +134,15 @@
             <p class="section-kicker">Have a project in mind?</p>
             <h2 class="section-title">Let's connect.</h2>
             <p class="contact-copy">Tell me a little about what you are building and I will get back to you.</p>
-            <div class="input">
-                <input type="email" placeholder="your@email.com" aria-label="Your email address">
-                <i class="fa -solid fa-envelope"></i>
-            </div>
-            <button class="btn" type="submit">Send inquiry</button>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="998340b9-3083-4ae3-978b-eb0ed09d0dbc">
+                <div class="input">
+                    <input type="text" name="context" placeholder="Context" aria-label="Context" required>
+                    <input type="email" name="email" placeholder="your@email.com" aria-label="Your email address" required>
+                </div>
+                <br>
+                <button class="btn" type="submit">Send inquiry</button>
+            </form>
         </div>
     </section>
 
