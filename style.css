@@ -43,7 +43,7 @@ section { min-height: auto; padding: 7.5rem max(7%, calc((100% - 1120px) / 2)); 
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 2.5rem; border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
 .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2.4rem, 5vw, 4rem); line-height: 1; font-weight: 700; }
 .experience { background: var(--surface); }
-.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(1fr); gap: 1rem; }
 .grid-card { border: 1px solid var(--line); border-radius: 8px; padding: 1.75rem; background: var(--surface); transition: .2s ease; }
 .grid-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 12px 24px rgba(20,32,43,.07); }
 .grid-card i { color: var(--accent); font-size: 1.15rem; margin-bottom: 1.4rem; }
